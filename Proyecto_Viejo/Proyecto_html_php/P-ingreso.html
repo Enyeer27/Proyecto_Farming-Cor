@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos/1-estilo-proyecto.css">
+</head>
+<body>
+    <table id="indice-menu">
+        <tr>
+            <td>
+                <ul id="ul-menu">
+                    <li class="li-menu"><a class="a-menu" href="P-ingreso.html">INGRESAR</a></li>
+                    <li class="li-menu"><a class="a-menu" href="P-registro.html">REGISTRARSE</a></li>
+                    <li class="li-menu"><a class="a-menu" href="P-contactanos.html">CONTACTANOS</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <table id="table-ing">
+        <tr>
+            <td colspan="2" class="logo">
+                <span><strong>INGRESAR</strong></span>
+            </td>
+        </tr>
+        <form action="./php/ingreso.php" method="post">
+            <tr>
+                <td><span><strong>Nombre Usuario:</strong></span><br>
+                    <input type="text" name="usuario" class="inputs" placeholder="Maximo 8 caracteres" maxlength="8" required></td>
+
+                   <td><span><strong>Contraseña:</strong></span><br>
+                    <input type="password" name="clave" class="inputs" placeholder="Maximo 8 caracteres" maxlength="8" required></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input class="submit" type="submit" value="INGRESAR"></td>
+            </tr>
+        </form>
+
+            <tr>
+                <td colspan="2"><span><strong>¿No tienes una cuenta?</strong></span><br>
+                    <form action="P-registro.html">
+                        <input id="sub-reg-ing" type="submit" value="Registrate" class="submit"></input>
+                    </form>
+                </td>
+            </tr>
+
+    </table>
+       
+</body>
+</html>

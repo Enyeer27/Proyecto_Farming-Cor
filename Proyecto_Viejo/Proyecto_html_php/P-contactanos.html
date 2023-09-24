@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos/1-estilo-proyecto.css">
+</head>
+<body>
+    <table id="indice-menu">
+        <tr>
+            <td>
+                <ul id="ul-menu">
+                    <li class="li-menu"><a class="a-menu" href="P-ingreso.html">INGRESAR</a></li>
+                    <li class="li-menu"><a class="a-menu" href="P-registro.html">REGISTRARSE</a></li>
+                    <li class="li-menu"><a class="a-menu" href="P-contactanos.html">CONTACTANOS</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <table id="table-contactanos">
+        <tr>
+            <td class="logo" colspan="2">
+                <span><strong>CONTACTANOS</strong></span>
+            </td>
+        </tr>
+        <form action="A-contactanos.html">
+            <tr>
+                <td><span><strong>Nombres:</strong></span><br>
+                    <input type="text" class="inputs" maxlength="20" required>
+                </td>
+                <td><span><strong>Apellidos:</strong><br></span>
+                    <input class="inputs" type="text" maxlength="30" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2s"><span><strong>Correo:</strong></span><br>
+                    <input type="email" class="inputs" maxlength="50" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><span><strong>Mensaje:</strong></span><br>
+                    <textarea class="inputs" name="mensaje" cols="60" rows="10" required maxlength="400" minlength="10" placeholder="Texto minimo de 10 caracteres inlcluyendo espacios en blanco."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="submit" type="submit" value="ENVIAR">
+                </td>
+            </tr>
+
+        </form>
+
+    </table>
+
+</body>
+</html>

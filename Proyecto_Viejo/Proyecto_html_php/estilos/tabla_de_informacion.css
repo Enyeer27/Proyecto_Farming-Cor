@@ -1,0 +1,129 @@
+body{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background: linear-gradient(aliceblue,#00BFFF  );
+  background-attachment: fixed;
+  background-size: cover;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+.submit{
+  border-radius:6px;
+  padding:4px;
+  border:1px solid rgb(243, 245, 242);
+  background-color: rgb(238, 241, 235);
+  box-shadow: 0 0 5px #33c4e9;
+}
+
+.submit:hover{
+  padding:4px;
+  background:#33e942;
+  color:#0d0e0d;
+}
+
+.submit:active{
+  padding:4px;
+  background: #006600;
+}
+
+.inputs{
+  padding:4px;
+  border-radius:6px;
+  border:1px solid chartreuse;
+  outline:none;
+}
+
+
+.user-box {
+  display: inline-block;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size:xx-large;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  height: 100px;
+  width: 200px;
+  background: linear-gradient(to right, rgb(9, 75, 19), #ccc);
+  text-align: center;
+  }
+  
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  margin-top: 20px;
+  margin-bottom: 150px;
+  
+}
+
+
+.menu-list li a:hover {
+  background-color: chartreuse;
+  height: 40px;
+  color: #000;
+  border-radius: 10px;
+}
+
+.menu-list li a:active {
+  background-color: #006600 ;
+  color: #000;
+}
+
+
+.menu-list li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.user-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.menu {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  height: 600px;
+  background: linear-gradient(to right, rgb(13, 240, 43), #ccc);
+  text-align: center;
+}
+
+.top-bar {
+background-color:lightblue;   
+display: flex;
+height: 70px;
+width: 75%;
+position: absolute;
+margin-left: 20%;
+justify-content: flex-end;
+border-radius: 10px;
+}
+  
+.menu-list2{
+  color:black;
+  text-decoration: 0;
+  font-size: large;
+  text-align: right;
+}
+
+.li-menulist2{
+  display: inline-block;
+  padding-right: 100px;
+}
+

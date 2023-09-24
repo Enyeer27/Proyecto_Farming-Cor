@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos/1-estilo-proyecto.css">
+</head>
+<body>
+
+    <table id="indice-menu">
+        <tr>
+            <td>
+                <ul id="ul-menu">
+                    <li class="li-menu"><a class="a-menu" href="P-ingreso.html">INGRESAR</a></li>
+                    <li class="li-menu"><a class="a-menu" href="P-registro.html">REGISTRARSE</a></li>
+                    <li class="li-menu"><a class="a-menu" href="P-contactanos.html">CONTACTANOS</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <form action="p-registro.html">
+        <tr>
+            <td>
+                <input class="boton-regresar" type="submit" value="REGRESAR">
+            </td>
+        </tr>
+    </form>
+
+    <table id="table-registro-persona">
+
+        <tr>
+            <td class="logo" colspan="2">
+               <span><strong>PROVEEDOR</strong></span>
+            </td>
+        </tr>
+
+        <form action="controladores/controlador_registro.php" method="post">
+            <tr>
+                <td><span><strong>Primer nombre:</strong></span>
+                    <input type="text" name="Primer_nombre"  class="inputs" maxlength="25" required></td>
+                <td><span><strong>Primer apellido:</strong><br></span>
+                    <input type="text" name="Primer_apellido"  class="inputs" maxlength="25" required></td>
+            </tr>
+
+            <tr>
+                <td><span><strong>Segundo nombre:</strong></span><br>
+                    <input type="text" name="Segundo_nombre"  class="inputs" maxlength="25"></td>
+                <td><span><strong>Segundo apellido:</strong><br></span>
+                    <input type="text" class="inputs" name="Segundo_apellido"  maxlength="25"></td>
+            </tr>
+            <tr>
+                <td><span><strong>Tel-Cel:</strong></span><br>
+                    <input type="tel" name="Tel_Cel"  class="inputs" maxlength="12"  required></td>
+                <td><span><strong>Correo Electronico</strong></span><br>
+                    <input type="email" name="Correo" class="inputs">
+                </td>        
+            </tr>
+            <tr>
+                <td><span><strong>Direccion</strong></span><br>
+                    <input type="text" name="Direccion" class="inputs">
+                </td>
+                <td><span><strong>Numero del Local</strong></span><br>
+                    <input type="number" name="Num_local" class="inputs">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><span><strong>Tipo de documento</strong></span><br>
+                    <select name="Tipo_doc"  class="inputs">
+                        <option value=""></option>
+                        <option value="C.C">C.C</option>
+                        <option value="C.E">C.E</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><span><strong>Numero de Documento:</strong></span><br>
+                    <input type="tel" name="Num_doc" class="inputs" maxlength="12" required></td>
+            </tr>
+            <tr>
+                <td><span><strong>Nombre usuario:</strong></span><br>
+                    <input type="text" class="inputs" name="Nom_usu" placeholder="Maximo 8 caracteres" maxlength="8" required></td>
+                <td><span><strong>Contraseña:</strong></span><br>
+                    <input type="password" name="Clave" class="inputs" maxlength="8" placeholder="Maximo 8 caracteres" required></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="REGISTRAR" class="submit">
+                </td>
+            </tr>
+        </form>
+        
+    </table>
+    
+</body>
+</html>
