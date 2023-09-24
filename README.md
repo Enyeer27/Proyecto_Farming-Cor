@@ -3,6 +3,15 @@
 # Objetivo General
 Desarrollar un sistema de información bajo plataforma web que permita donar productos como frutas y verduras de los proveedores del sector de Corabastos en la ciudad de Bogotá.
 
+# Objetivos especificos del sistema
+- Recolectar la información requerida aplicando encuestas a los usuarios (del sector de corabastos).
+- Analizar los resultados de la información recolectada. 
+- Diseñar la propuesta del sistema de información para el beneficio del sector comercial de corabastos.
+- Desarrollar el sistema de información con los resultados obtenidos.
+- Realizar las pruebas  de funcionalidad al sistema de información. 
+- Implementar el sistema de información propuesto.
+
+
 # Problematica
 Disminuir el desperdicio de los alimentos comercializados en el sector de Corabastos.
 
